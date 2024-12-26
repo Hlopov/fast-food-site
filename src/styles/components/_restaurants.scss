@@ -1,0 +1,16 @@
+.restaurants {
+  &__cards-list {
+    display: grid;
+    grid-template-columns: repeat(3, 361px);
+    justify-content: space-around;
+    row-gap: 45px;
+  }
+  
+  &__item {
+    &:hover {
+      .restaurant-card__img img{
+        transform: scale(1.3);
+      }
+    }
+  }
+}

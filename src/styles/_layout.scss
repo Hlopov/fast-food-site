@@ -1,0 +1,188 @@
+@media screen and (max-width: 1280px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .restaurants__cards-list{
+    grid-template-columns: repeat(2, 361px);
+  }
+
+  h1{
+    font-size: var(--tabletFontSize);
+  }
+
+  .mobile-app__img{
+    width: 50vw;
+  }
+
+  .feedback__text-block {
+    width: 510px;
+  }
+
+  .reviews-swiper__container {
+    bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__basket {
+    margin-right: 10px;
+  }
+
+  .header__menu{
+    margin-right: 40px;
+  }
+
+  .header__quick-search {
+    margin-right: 30px;
+  }
+
+  .header__button {
+    margin-left: 30px;
+  }
+
+  .header__menu-list {
+    gap: 25px;
+  }
+
+  .hero__container{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .offer__buttons{
+    justify-content: center;
+  }
+
+  .hero-image{
+    //width: 50vw;
+  }
+
+  .delivery__image{
+    width: 40vw;
+    margin: 0 auto;
+  }
+
+  .restaurants__cards-list{
+    grid-template-columns: repeat(2, 350px);
+  }
+
+  .feedback{
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+
+  .reviews-swiper{
+    width: 80%; 
+    margin: 0 auto;
+  }
+
+  .feedback__text-block{
+    width: 100%;
+  }
+
+  .feedback-author{
+    bottom: 0;
+  }
+
+  .reviews-swiper__container{
+    bottom: 0;
+  }
+
+  .feedback__text-block{
+    padding-bottom: 110px;  
+    padding-right: 10px;
+    padding-left: 35px;
+  }
+
+  .footer__wrapper{
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  }
+  
+}
+
+
+@media screen and (max-width: 767px) {
+
+  h1{
+    font-size: var(--mobileFontSize);
+  }
+
+  .hero__main-image{
+    width: 100%;
+  }
+
+  .delivery__wrapper{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .delivery__text-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .delivery__image{
+    width: 60%;
+  }
+
+  .mobile-app__img{
+    width: 80%;
+  }
+
+  .restaurants__cards-list{
+    grid-template-columns: repeat(1, 361px);
+  }
+
+  .reviews-swiper{
+    width: 100%; 
+  }
+
+  .subscribe-form{
+    width: 100%;
+  }
+
+
+  .mobile-app__wrapper{
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .mobile-app__text-block{
+    text-align: center;
+    align-items: center;
+  }
+
+  .subscribe-block__button{
+    --button-padding: 0 20px;
+    --button-heigth: 60px;
+  }
+
+  .copyright {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+ .feedback__img{
+    width: 100%;
+  } 
+
+  .delivery__image{
+    width: 100%;
+  }
+
+  .restaurants__wrapper{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .restaurant-card{
+    width: 100%;
+  }
+}

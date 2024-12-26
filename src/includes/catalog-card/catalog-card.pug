@@ -1,0 +1,10 @@
+mixin catalogCard(product, name, price)
+  article.catalog-card
+    .catalog-card__wrapper
+      .catalog-card__product-img
+        img(src="src/assets/img/"+name, alt="")
+      img.catalog-card__stars(src="src/assets/img/Star.png", alt="")
+      a.catalog-card__name(href="#")= product
+      span.catalog-card__price= price
+      button.button.catalog-card__button(type="button")
+        span.button__body Add to Cart

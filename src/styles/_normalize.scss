@@ -1,0 +1,107 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: var(--base-font-family);
+  font-weight: var(--base-font-weight);
+  color: var(--text-color);
+  background: var(--site-bg-color);
+}
+
+article {
+  padding: 0;
+}
+
+section {
+  padding-bottom: var(--section-padding-y);
+  padding-top: var(--section-padding-y);
+}
+
+p {
+  margin: 0;
+}
+
+.selection{
+  color: var(--primary-color);
+}
+
+svg * {
+  stroke: var(--strokeColor);
+  fill: var(--fillColor);
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  --base-font-weight: 700;
+  --mobileFontSize: calc(25px + (10 + 10 * 0.7) * ((100vw - 320px) / 1600));
+  margin: 0;
+  padding: 0;
+  font-family: var(--base-font-family);
+  font-weight: var(--base-font-weight);
+}
+
+h1 {
+  --tabletFontSize: 55px;
+  --mobileFontSize: 40px;
+  font-size: 66px;
+}
+
+h2 {
+  --tabletFontSize: 30px;
+  --mobileFontSize: 25px;
+  font-size: 35px;
+}
+
+h3 {
+  --tabletFontSize: 18px;
+  --mobileFontSize: 20px;
+  font-size: 24px;
+}
+
+a {
+  font: var(--base-font-family);
+  color: var(--text-color);
+  font-size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--container-padding-x);
+  padding-right: var(--container-padding-x);
+}

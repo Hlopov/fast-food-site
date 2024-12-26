@@ -1,0 +1,47 @@
+.restaurant-card {
+  //width: 361px;
+
+  &__img {
+    overflow: hidden;
+    border-radius: 50px 0 0 0;
+  }
+
+  &__img img{
+    transition: .3s ease-in-out;
+    transform: scale(1);
+  }
+
+  &__body {
+    border-radius: 0 0 50px 0;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__link {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__time {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 18px;
+  }
+
+  &__button {
+    --button-padding: 0 30px;
+    --button-heigth: 35px;
+    --button-br-radius: 20px 20px 0 20px;
+  }
+}

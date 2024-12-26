@@ -1,0 +1,42 @@
+.header {
+  padding-top: 54px;
+  padding-bottom: 30px;
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  &__logo {
+    margin-right: auto;
+  }
+
+  &__menu {
+    margin-right: 60px;
+  }
+
+  &__menu-list {
+    display: flex;
+    gap: 57px;
+  }
+
+  &__basket {
+    --fillColor: initial;
+    --strokeColor: currentColor;
+    margin-right: 60px;
+  }
+
+  &__quick-search {
+    --fillColor: initial;
+    --strokeColor: currentColor;
+    margin-right: 60px;
+  }
+
+  &__button {
+    --button-padding: 0 28px;
+    --button-font-size: 18px;
+    margin-left: 60px;
+  }
+}
+
+
